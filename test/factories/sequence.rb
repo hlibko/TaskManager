@@ -7,7 +7,7 @@ FactoryBot.define do
     "person#{n}@example.com"
   end
 
-  sequence :state do |n|
-    ["new_task", "in_development", "in_qa", "in_code_review", "in_code_review", "ready_for_release", "released", "archived"].sample
+  sequence :state do |_n|
+    ['new_task', 'in_development', 'in_qa', 'in_code_review', 'in_code_review', 'ready_for_release', 'released', 'archived'].sample
   end
 end
